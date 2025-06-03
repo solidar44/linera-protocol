@@ -14,7 +14,9 @@
     "cargo install --locked linera-storage-service --version 0.14.1",
     "cargo install --locked linera-service --version 0.14.1",
     "echo 'export PATH=\"$HOME/.cargo/bin:$PATH\"' >> ~/.bashrc",
-    "source ~/.bashrc"
+    "echo 'export PATH=\"$HOME/.local/bin:$PATH\"' >> ~/.bashrc",
+    "source ~/.bashrc",
+    "echo 'unset CARGO_TARGET_DIR' >> ~/.bashrc" // Агрессивно удаляем CARGO_TARGET_DIR
   ],
   "portsAttributes": {
     "8080": {
