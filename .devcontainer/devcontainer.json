@@ -16,7 +16,7 @@
     "echo 'export PATH=\"$HOME/.cargo/bin:$PATH\"' >> ~/.bashrc",
     "echo 'export PATH=\"$HOME/.local/bin:$PATH\"' >> ~/.bashrc",
     "source ~/.bashrc",
-    "echo 'unset CARGO_TARGET_DIR' >> ~/.bashrc" // Агрессивно удаляем CARGO_TARGET_DIR
+    "echo 'unset CARGO_TARGET_DIR' >> ~/.bashrc" // Это ключевое изменение
   ],
   "portsAttributes": {
     "8080": {
